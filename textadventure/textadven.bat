@@ -1,13 +1,14 @@
 @echo off
 TILLE game
 
+ // Menu.
 :startup
 cls
 echo Welcome to Text Adventure!
 echo.
-echo echo [91m1. Start Game[0m
+echo [32m1. Start Game[0m
 echo 2. Settings
-echo 3. Exit
+echo [31m3. Exit[0m
 echo.
 set /p input0=Enter:
 
